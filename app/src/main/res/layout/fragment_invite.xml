@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:text="Share via Whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_marginTop="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/id_invitedescrip"
+        android:textColor="@color/appColor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/id_invitedescrip"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:hint="Write the invitation here!!"
+        android:fontFamily="sans-serif-condensed"
+        android:background="#82CAFA"
+        android:scrollbars="vertical"
+        android:inputType="textMultiLine"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Invite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="35dp"
+        android:id="@+id/id_invitebutton"
+        android:layout_below="@+id/id_invitedescrip"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

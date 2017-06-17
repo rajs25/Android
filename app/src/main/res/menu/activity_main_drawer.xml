@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Options">
+        <menu>
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/share"
+            android:title="Invite" />
+            <item
+                android:id="@+id/nav_credits"
+                android:icon="@drawable/about"
+                android:title="About" />
+        </menu>
+        </item>
+    </group>
+
+</menu>
